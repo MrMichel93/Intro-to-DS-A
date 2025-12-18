@@ -54,13 +54,10 @@ repository-root/
 From within a problem directory:
 ```bash
 cd arrays/problem-1
-pytest test_problem1.py -v
+python3 -m pytest test_problem1.py -v
 ```
 
-From repository root for a specific problem:
-```bash
-pytest arrays/problem-1/ -v
-```
+**Note**: Always use `python3 -m pytest` to ensure proper module resolution.
 
 ## For Students
 
@@ -69,7 +66,7 @@ pytest arrays/problem-1/ -v
 3. Choose a problem directory (e.g., `problem-1/`)
 4. Read the problem description in `problemN.md`
 5. Download and edit `problemN.py` to implement your solution
-6. Run `pytest test_problemN.py` to validate your solution
+6. Run `python3 -m pytest test_problemN.py` to validate your solution
 
 ## For Contributors
 

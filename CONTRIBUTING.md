@@ -37,7 +37,7 @@ Each data structure/algorithm topic is organized into its own directory with the
 4. **Test your solution**: Run the tests to validate your implementation:
    ```bash
    cd "<topic>/problem-N"
-   pytest test_problemN.py -v
+   python3 -m pytest test_problemN.py -v
    ```
 
 5. **Iterate**: If tests fail, review your logic and try again!
@@ -198,16 +198,11 @@ def test_function_name_errors():
 ### Run tests for a specific problem:
 ```bash
 cd "<topic>/problem-N"
-pytest test_problemN.py -v
-```
-
-### Run all tests for a specific problem from repository root:
-```bash
-pytest <topic>/problem-N/ -v
+python3 -m pytest test_problemN.py -v
 ```
 
 ### Note on running tests:
-Due to Python import naming conflicts when multiple directories have files with the same names, it's recommended to run tests from within each problem directory or specify the full path to a specific problem directory.
+Always use `python3 -m pytest` (not just `pytest`) to ensure Python can properly resolve the local module imports. Tests should be run from within each problem directory.
 
 ## Dependencies
 
