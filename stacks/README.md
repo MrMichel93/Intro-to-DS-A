@@ -172,14 +172,19 @@ Use two stacks to implement:
 
 ## Practice Problems
 
-Test your understanding with these problems:
+Each problem is organized in its own directory containing:
+- `problemN.md` - Problem description and examples
+- `problemN.py` - Python starter file with function stubs and comments
+- `test_problemN.py` - Pytest test file for validation
 
-1. **[Problem 1: Valid Parentheses](./problem1.md)** - Easy 🟢
-2. **[Problem 2: Min Stack](./problem2.md)** - Easy 🟢
-3. **[Problem 3: Evaluate Postfix](./problem3.md)** - Medium 🟡
-4. **[Problem 4: Next Greater Element](./problem4.md)** - Medium 🟡
-5. **[Problem 5: Daily Temperatures](./problem5.md)** - Medium 🟡
-6. **[Problem 6: Largest Rectangle](./problem6.md)** - Hard 🔴
+Navigate to each Problem directory to access the files:
+
+- [Problem 1](./problem-1/problem1.md)
+- [Problem 2](./problem-2/problem2.md)
+- [Problem 3](./problem-3/problem3.md)
+- [Problem 4](./problem-4/problem4.md)
+- [Problem 5](./problem-5/problem5.md)
+- [Problem 6](./problem-6/problem6.md)
 
 ## Next Steps
 
