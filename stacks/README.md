@@ -179,12 +179,12 @@ Each problem is organized in its own directory containing:
 
 Navigate to each Problem directory to access the files:
 
-- [Problem 1](./Problem%201/problem1.md)
-- [Problem 2](./Problem%202/problem2.md)
-- [Problem 3](./Problem%203/problem3.md)
-- [Problem 4](./Problem%204/problem4.md)
-- [Problem 5](./Problem%205/problem5.md)
-- [Problem 6](./Problem%206/problem6.md)
+- [Problem 1](./problem-1/problem1.md)
+- [Problem 2](./problem-2/problem2.md)
+- [Problem 3](./problem-3/problem3.md)
+- [Problem 4](./problem-4/problem4.md)
+- [Problem 5](./problem-5/problem5.md)
+- [Problem 6](./problem-6/problem6.md)
 
 ## Next Steps
 
