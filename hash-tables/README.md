@@ -242,14 +242,19 @@ def group_anagrams(words):
 
 ## Practice Problems
 
-Master hash tables with these problems:
+Each problem is organized in its own directory containing:
+- `problemN.md` - Problem description and examples
+- `problemN.py` - Python starter file with function stubs and comments
+- `test_problemN.py` - Pytest test file for validation
 
-1. **[Problem 1: Two Sum](./problem1.md)** - Easy 🟢
-2. **[Problem 2: Contains Duplicate](./problem2.md)** - Easy 🟢
-3. **[Problem 3: Group Anagrams](./problem3.md)** - Medium 🟡
-4. **[Problem 4: Longest Consecutive](./problem4.md)** - Medium 🟡
-5. **[Problem 5: LRU Cache](./problem5.md)** - Medium 🟡
-6. **[Problem 6: Substring with Concat](./problem6.md)** - Hard 🔴
+Navigate to each Problem directory to access the files:
+
+- [Problem 1](./Problem%201/problem1.md)
+- [Problem 2](./Problem%202/problem2.md)
+- [Problem 3](./Problem%203/problem3.md)
+- [Problem 4](./Problem%204/problem4.md)
+- [Problem 5](./Problem%205/problem5.md)
+- [Problem 6](./Problem%206/problem6.md)
 
 ## Next Steps
 

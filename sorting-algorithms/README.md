@@ -315,14 +315,19 @@ Z-buffer sorting for rendering.
 
 ## Practice Problems
 
-Master sorting with these problems:
+Each problem is organized in its own directory containing:
+- `problemN.md` - Problem description and examples
+- `problemN.py` - Python starter file with function stubs and comments
+- `test_problemN.py` - Pytest test file for validation
 
-1. **[Problem 1: Sort Array](./problem1.md)** - Easy 🟢
-2. **[Problem 2: Merge Intervals](./problem2.md)** - Easy 🟢
-3. **[Problem 3: Kth Largest Element](./problem3.md)** - Medium 🟡
-4. **[Problem 4: Sort Colors](./problem4.md)** - Medium 🟡
-5. **[Problem 5: Meeting Rooms II](./problem5.md)** - Medium 🟡
-6. **[Problem 6: Count Inversions](./problem6.md)** - Hard 🔴
+Navigate to each Problem directory to access the files:
+
+- [Problem 1](./Problem%201/problem1.md)
+- [Problem 2](./Problem%202/problem2.md)
+- [Problem 3](./Problem%203/problem3.md)
+- [Problem 4](./Problem%204/problem4.md)
+- [Problem 5](./Problem%205/problem5.md)
+- [Problem 6](./Problem%206/problem6.md)
 
 ## Next Steps
 
