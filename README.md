@@ -386,11 +386,58 @@ We recommend going through the topics in order, as later concepts often build on
 4. **Don't just copy solutions** - Make sure you understand WHY code works
 5. **Practice regularly** - Consistency beats cramming
 
+## 📚 Learning Resources
+
+This repository includes several comprehensive guides to enhance your learning:
+
+### Core Documentation
+
+- **[LEARNING_PATH.md](./LEARNING_PATH.md)** - Choose your ideal learning path
+  - Complete beginner path (40-45 hours)
+  - Fast-track path for experienced programmers (25-30 hours)
+  - Interview-focused path
+  - Project-based learning
+  - 7 different paths based on your goals and background
+
+- **[RESOURCES.md](./RESOURCES.md)** - External resources and tools
+  - Visualization tools (VisuAlgo, Algorithm Visualizer, Python Tutor)
+  - Practice platforms (LeetCode, HackerRank, CodeSignal)
+  - Books and articles
+  - YouTube channels and video tutorials
+  - Community forums and study groups
+
+- **[COMPLEXITY_CHEATSHEET.md](./COMPLEXITY_CHEATSHEET.md)** - Quick reference guide
+  - Big O complexity chart
+  - Data structure operation complexities
+  - Algorithm time and space complexities
+  - Printable format for studying
+
+- **[INTERVIEW_PREP.md](./INTERVIEW_PREP.md)** - Technical interview preparation
+  - 10 common interview patterns
+  - Step-by-step interview strategies
+  - 4-week practice roadmap
+  - Company-specific preparation tips
+  - Mock interview guide
+
+- **[STRUCTURE.md](./STRUCTURE.md)** - Repository organization
+  - How files are organized
+  - How to navigate the course
+  - Running tests
+
 ## 🤝 Contributing
 
-Found a bug or have a suggestion? Feel free to open an issue or submit a pull request!
+We welcome contributions from everyone! Whether you're a student, educator, or developer, you can help improve this resource.
 
-## 📖 Additional Resources
+**Ways to contribute:**
+- Share alternative solution approaches
+- Add practice problems
+- Improve explanations and analogies
+- Create visualizations
+- Fix bugs or typos
+
+See [CONTRIBUTING.md](./CONTRIBUTING.md) for detailed guidelines.
+
+## 📖 Additional External Resources
 
 - [Visualgo](https://visualgo.net/) - Visualize data structures and algorithms
 - [Big-O Cheat Sheet](https://www.bigocheatsheet.com/) - Algorithm complexity reference
