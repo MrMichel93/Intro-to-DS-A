@@ -13,11 +13,11 @@ Space Complexity: O(h) - recursion stack depth
 
 Example:
     Tree:       3
-               / \
+               / \\
               5   1
-             / \ / \
+             / \\ / \\
             6  2 0  8
-              / \
+              / \\
              7   4
     LCA(5, 1) = 3, LCA(5, 4) = 5
 """

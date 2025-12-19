@@ -13,9 +13,9 @@ Space Complexity: O(w) - queue holds at most one level, where w is maximum width
 
 Example:
     Tree:       3
-               / \
+               / \\
               9   20
-                 /  \
+                 /  \\
                 15   7
     Output: [[3], [9, 20], [15, 7]]
 """

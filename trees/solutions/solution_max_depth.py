@@ -12,9 +12,9 @@ Space Complexity: O(h) - recursion stack depth, where h is tree height
 
 Example:
     Tree:     3
-             / \
+             / \\
             9   20
-               /  \
+               /  \\
               15   7
     max_depth returns 3 (path 3 -> 20 -> 15 or 3 -> 20 -> 7)
 """

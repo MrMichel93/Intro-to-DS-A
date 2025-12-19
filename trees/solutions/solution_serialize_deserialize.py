@@ -9,9 +9,9 @@ following same preorder pattern.
 
 Serialization: "1,2,#,#,3,4,#,#,5,#,#" for tree:
        1
-      / \
+      / \\
      2   3
-        / \
+        / \\
        4   5
 
 Time Complexity: O(n) for both serialize and deserialize
