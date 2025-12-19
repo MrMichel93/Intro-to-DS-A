@@ -4,7 +4,14 @@ These challenges will help you master the concepts from the foundations module, 
 
 ## Challenge 1: Analyze Time Complexity (Beginner)
 
+**Difficulty:** Beginner 🟢
+
 **Objective**: Determine the time complexity of given code snippets.
+
+**Expected Time Complexity**: O(1) analysis
+**Expected Space Complexity**: O(1) analysis
+
+**Real-World Use Case**: Understanding algorithm efficiency is crucial in production systems. For example, when analyzing whether a payment processing function will scale from 100 to 100,000 transactions per second, knowing if it's O(1), O(n), or O(n²) determines if your system can handle the load without additional infrastructure.
 
 ### Problem 1A
 
@@ -79,7 +86,14 @@ def find_target_count(arr, target):
 
 ## Challenge 2: Analyze Nested Operations (Beginner)
 
+**Difficulty:** Beginner 🟢
+
 **Objective**: Understand how nested loops affect time complexity.
+
+**Expected Time Complexity**: O(n²) analysis
+**Expected Space Complexity**: O(1) or O(n²) analysis (depending on problem)
+
+**Real-World Use Case**: Social media platforms like Facebook need to understand O(n²) complexity when implementing features like "mutual friends" (comparing friends lists between two users) or "people you may know" algorithms. Recognizing O(n²) complexity helps engineers decide whether to use caching, pre-computation, or alternative algorithms for billions of users.
 
 ### Problem 2A
 
@@ -156,7 +170,14 @@ def create_grid(n):
 
 ## Challenge 3: Write O(1) Solution (Intermediate)
 
+**Difficulty:** Intermediate 🟡
+
 **Objective**: Implement a function that achieves constant time complexity.
+
+**Expected Time Complexity**: O(1)
+**Expected Space Complexity**: O(1)
+
+**Real-World Use Case**: Database indexing systems use O(1) operations extensively. When you query a database for a record by its primary key, the database uses direct indexing (similar to array access) to retrieve the record instantly, regardless of whether the table has 100 or 100 million rows. This is why indexed lookups are so much faster than full table scans.
 
 ### Problem Statement
 
@@ -224,7 +245,14 @@ def get_middle_element(arr):
 
 ## Challenge 4: Write O(n) Solution (Intermediate)
 
+**Difficulty:** Intermediate 🟡
+
 **Objective**: Implement an efficient linear time solution.
+
+**Expected Time Complexity**: O(n)
+**Expected Space Complexity**: O(1)
+
+**Real-World Use Case**: Video streaming services like Netflix use O(n) algorithms to find the "Continue Watching" show with the most recent timestamp. By scanning through your viewing history once, they can determine which show to display first. Linear time is acceptable here because users typically have a manageable number of shows in progress.
 
 ### Problem Statement
 
@@ -330,7 +358,14 @@ def find_second_largest_v2(arr):
 
 ## Challenge 5: Compare Approaches (Advanced)
 
+**Difficulty:** Advanced 🔴
+
 **Objective**: Compare different algorithmic approaches to the same problem.
+
+**Expected Time Complexity**: O(n log n) for space-optimized, O(n) for time-optimized
+**Expected Space Complexity**: O(1) for space-optimized, O(n) for time-optimized
+
+**Real-World Use Case**: E-commerce platforms like Amazon must detect duplicate product listings (same item posted multiple times). With millions of products, choosing between a space-efficient O(n log n) sorting approach vs. a time-efficient O(n) hash set approach affects both server costs (memory) and user experience (speed). The decision depends on infrastructure constraints and business priorities.
 
 ### Problem Statement
 
@@ -475,7 +510,14 @@ Hash set 20x faster! (if memory available)
 
 ## Challenge 6: Optimize an Algorithm (Advanced)
 
+**Difficulty:** Advanced 🔴
+
 **Objective**: Take an inefficient algorithm and optimize it using better data structures or algorithmic techniques.
+
+**Expected Time Complexity**: Optimize from O(n × m) to O(n + m)
+**Expected Space Complexity**: O(n) for optimized solution
+
+**Real-World Use Case**: LinkedIn's "People You May Know" feature needs to find common connections between users efficiently. With a naive O(n × m) approach comparing all connections, it would take hours for users with thousands of connections. By using hash sets for O(n + m) comparison, LinkedIn can compute mutual connections in milliseconds, making the feature practical for their 800+ million users.
 
 ### Problem Statement
 
