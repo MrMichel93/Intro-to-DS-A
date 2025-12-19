@@ -36,7 +36,7 @@ Create a task management system that helps users organize, prioritize, and track
 
 ## Core Requirements
 
-### Feature 1: Task Management (30 points)
+### Feature 1: Task Management (25 points)
 
 Implement comprehensive task CRUD operations:
 
@@ -136,7 +136,7 @@ def detect_circular_dependencies(self):
 
 ---
 
-### Feature 3: Priority Queue for Task Scheduling (25 points)
+### Feature 3: Priority Queue for Task Scheduling (20 points)
 
 Implement priority-based task scheduling:
 
@@ -178,7 +178,7 @@ def schedule_tasks(self):
 
 ---
 
-### Feature 4: Search and Filtering (25 points)
+### Feature 4: Search and Filtering (20 points)
 
 Implement efficient search and filter operations:
 
@@ -227,7 +227,7 @@ def get_tasks_due_in_range(self, start_date, end_date):
 
 ---
 
-### Feature 5: Sorting and Organization (20 points)
+### Feature 5: Sorting and Organization (15 points)
 
 Implement multiple sorting options for tasks:
 
@@ -262,7 +262,7 @@ def get_task_statistics(self):
 
 ---
 
-### Feature 6: Undo/Redo System (20 points)
+### Feature 6: Undo/Redo System (15 points)
 
 Implement comprehensive undo/redo for all operations:
 
@@ -297,7 +297,7 @@ def get_history(self, limit=10):
 
 ---
 
-### Feature 7: Task History and Analytics (25 points)
+### Feature 7: Task History and Analytics (20 points)
 
 Track and analyze task completion patterns:
 
@@ -345,7 +345,7 @@ def estimate_project_completion(self, project_id):
 
 ---
 
-### Feature 8: Advanced Features (25 points)
+### Feature 8: Advanced Features (20 points)
 
 Implement at least TWO of these advanced features:
 
@@ -433,17 +433,17 @@ def get_user_workload(self, user_id):
 
 | Component | Points | Criteria |
 |-----------|--------|----------|
-| **Feature 1: Task Management** | 30 | Correctness (15), Efficiency (10), Code quality (5) |
+| **Feature 1: Task Management** | 25 | Correctness (12), Efficiency (8), Code quality (5) |
 | **Feature 2: Dependencies (Graph)** | 30 | Graph implementation (15), Topological sort (10), Cycle detection (5) |
-| **Feature 3: Priority Queue** | 25 | Priority queue implementation (15), Scheduling logic (10) |
-| **Feature 4: Search & Filtering** | 25 | Correctness (15), Efficiency (7), Multiple criteria (3) |
-| **Feature 5: Sorting** | 20 | Sorting implementation (12), Multiple sort options (8) |
-| **Feature 6: Undo/Redo** | 20 | Correctness (12), Comprehensive coverage (8) |
-| **Feature 7: Analytics** | 25 | Implementation (15), Useful insights (10) |
-| **Feature 8: Advanced Features** | 25 | Two features fully implemented and tested |
-| **Documentation** | 20 | README (5), Code comments (5), Complexity analysis (10) |
-| **Testing** | 20 | Test coverage (10), Edge cases (5), Integration tests (5) |
-| **Code Quality** | 10 | Clean code (5), Good structure (3), Error handling (2) |
+| **Feature 3: Priority Queue** | 20 | Priority queue implementation (12), Scheduling logic (8) |
+| **Feature 4: Search & Filtering** | 20 | Correctness (12), Efficiency (5), Multiple criteria (3) |
+| **Feature 5: Sorting** | 15 | Sorting implementation (10), Multiple sort options (5) |
+| **Feature 6: Undo/Redo** | 15 | Correctness (10), Comprehensive coverage (5) |
+| **Feature 7: Analytics** | 20 | Implementation (12), Useful insights (8) |
+| **Feature 8: Advanced Features** | 20 | Two features fully implemented and tested |
+| **Documentation** | 15 | README (5), Code comments (5), Complexity analysis (5) |
+| **Testing** | 15 | Test coverage (8), Edge cases (4), Integration tests (3) |
+| **Code Quality** | 5 | Clean code (3), Good structure (1), Error handling (1) |
 | **Total** | 200 | |
 
 ---

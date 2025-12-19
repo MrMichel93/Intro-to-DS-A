@@ -94,15 +94,13 @@ print(mystery_function(10))
 ```
 
 **Answer:**
-- Output: **7**
+- Output: **15**
 - Trace of execution:
   - i = 1, result = 0 + 1 = 1, i becomes 2
   - i = 2, result = 1 + 2 = 3, i becomes 4
   - i = 4, result = 3 + 4 = 7, i becomes 8
   - i = 8, result = 7 + 8 = 15, i becomes 16
   - i = 16 >= 10, loop exits
-  - Wait, let me recalculate: i starts at 1, adds 1 to result (result=1), i=2; adds 2 (result=3), i=4; adds 4 (result=7), i=8; adds 8 (result=15), i=16; 16 >= 10 so loop exits. Actually output is **15**.
-  - Correction: Output is **15**
   - The function sums powers of 2 less than n: 1 + 2 + 4 + 8 = 15
 
 ### Question 13 (10 points)
