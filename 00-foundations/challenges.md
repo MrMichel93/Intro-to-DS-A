@@ -160,7 +160,7 @@ def create_grid(n):
 
 ### Problem Statement
 
-Implement a function `get_middle_element(arr)` that returns the middle element of an array in O(1) time complexity. If the array has an even number of elements, return the element at index `n/2`.
+Implement a function `get_middle_element(arr)` that returns the middle element of an array in O(1) time complexity. For arrays with odd length, return the center element. For even length arrays, return the element at index `len(arr) // 2` (using integer division).
 
 **Requirements**:
 - Time complexity must be O(1)
@@ -169,10 +169,10 @@ Implement a function `get_middle_element(arr)` that returns the middle element o
 
 **Examples**:
 ```python
-get_middle_element([1, 2, 3, 4, 5])  # Returns 3 (index 2)
-get_middle_element([1, 2, 3, 4])     # Returns 3 (index 2)
-get_middle_element([7])              # Returns 7
-get_middle_element([])               # Returns None
+get_middle_element([1, 2, 3, 4, 5])  # Returns 3 (index 2, the center element)
+get_middle_element([1, 2, 3, 4])     # Returns 3 (index 2, len=4, 4//2=2)
+get_middle_element([7])              # Returns 7 (single element)
+get_middle_element([])               # Returns None (empty array)
 ```
 
 **Your implementation**:

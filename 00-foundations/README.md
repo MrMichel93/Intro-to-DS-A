@@ -377,9 +377,10 @@ def fibonacci(n):
         return n
     return fibonacci(n - 1) + fibonacci(n - 2)
 
-# For n = 10: 1,024 operations
-# For n = 20: 1,048,576 operations
-# For n = 30: 1,073,741,824 operations (over 1 billion!)
+# For n = 10: ~1,024 operations
+# For n = 20: ~1,048,576 operations
+# For n = 30: ~1,073,741,824 operations (over 1 billion!)
+# Note: Actual complexity is O(φⁿ) where φ ≈ 1.618, but O(2ⁿ) is used as an approximation
 ```
 
 **Real-world analogy**: Each decision branches into two more decisions, creating exponential growth.
@@ -432,6 +433,7 @@ Let's say 1 operation = 1 microsecond (1/1,000,000 second):
 | O(n²)     | 100 μs | 10 ms | 1 s    | 1.7 min  | 2.8 hours |
 | O(2ⁿ)     | 1 ms | **∞** | **∞**  | **∞**    | **∞**     |
 
+**Note**: Values are rounded approximations for illustration. Actual times depend on hardware and implementation.
 **∞** = Would take longer than the age of the universe!
 
 ### Key Takeaways
