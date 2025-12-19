@@ -412,12 +412,12 @@ Some operations have different costs occasionally but average out to better comp
 ├─────────────┬─────────┬──────────┬───────────┬──────────┤
 │ Algorithm   │ Best    │ Average  │ Worst     │ Space    │
 ├─────────────┼─────────┼──────────┼───────────┼──────────┤
-│ Bubble      │ O(n)    │ O(n²)    │ O(n²)     │ O(1)     │
-│ Insertion   │ O(n)    │ O(n²)    │ O(n²)     │ O(1)     │
-│ Selection   │ O(n²)   │ O(n²)    │ O(n²)     │ O(1)     │
-│ Quick       │O(n log n│O(n log n)│ O(n²)     │ O(log n) │
-│ Merge       │O(n log n│O(n log n)│O(n log n) │ O(n)     │
-│ Heap        │O(n log n│O(n log n)│O(n log n) │ O(1)     │
+│ Bubble      │ O(n)      │ O(n²)      │ O(n²)       │ O(1)     │
+│ Insertion   │ O(n)      │ O(n²)      │ O(n²)       │ O(1)     │
+│ Selection   │ O(n²)     │ O(n²)      │ O(n²)       │ O(1)     │
+│ Quick       │ O(n log n)│ O(n log n) │ O(n²)       │ O(log n) │
+│ Merge       │ O(n log n)│ O(n log n) │ O(n log n)  │ O(n)     │
+│ Heap        │ O(n log n)│ O(n log n) │ O(n log n)  │ O(1)     │
 └─────────────┴─────────┴──────────┴───────────┴──────────┘
 
 ┌──────────────────────────────────────────────────────────┐
@@ -425,13 +425,13 @@ Some operations have different costs occasionally but average out to better comp
 ├──────────┬────────────────────────────────────────────┬──┤
 │ Notation │ Name                    │ Example           │
 ├──────────┼────────────────────────────────────────────┼──┤
-│ O(1)     │ Constant               │ Array access      │
-│ O(log n) │ Logarithmic            │ Binary search     │
-│ O(n)     │ Linear                 │ Array traversal   │
-│ O(n log n│ Linearithmic           │ Merge sort        │
-│ O(n²)    │ Quadratic              │ Nested loops      │
-│ O(2ⁿ)    │ Exponential            │ Fibonacci         │
-│ O(n!)    │ Factorial              │ Permutations      │
+│ O(1)       │ Constant               │ Array access      │
+│ O(log n)   │ Logarithmic            │ Binary search     │
+│ O(n)       │ Linear                 │ Array traversal   │
+│ O(n log n) │ Linearithmic           │ Merge sort        │
+│ O(n²)      │ Quadratic              │ Nested loops      │
+│ O(2ⁿ)      │ Exponential            │ Fibonacci         │
+│ O(n!)      │ Factorial              │ Permutations      │
 └──────────┴────────────────────────────────────────────┴──┘
 ```
 
