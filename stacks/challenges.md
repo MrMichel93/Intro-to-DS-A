@@ -51,9 +51,7 @@ Explanation: Brackets are not closed in correct order
 ### Constraints
 
 - 1 ≤ s.length ≤ 10⁴
-- s consists of parentheses only: '()[]{}
-
-'
+- s consists of parentheses only: '()[]{}' 
 
 ### Hints
 
