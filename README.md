@@ -403,7 +403,7 @@ Stack:    Queue:
 
 **External Tools** (recommended):
 - [Visualgo](https://visualgo.net/) - Interactive algorithm animations
-- [Python Tutor](http://pythontutor.com/) - Step through code execution
+- [Python Tutor](https://pythontutor.com/) - Step through code execution
 
 ## ✅ Prerequisites
 
@@ -584,7 +584,7 @@ Stuck on a concept or problem? Don't worry—getting help is part of the learnin
 **When Your Code Doesn't Work:**
 1. **Read the error message** - Python tells you what's wrong!
 2. **Print statements** - Add `print()` to see variable values
-3. **Use Python Tutor** - Visualize execution at [pythontutor.com](http://pythontutor.com/)
+3. **Use Python Tutor** - Visualize execution at [pythontutor.com](https://pythontutor.com/)
 4. **Rubber duck debugging** - Explain your code line-by-line out loud
 5. **Test with simple inputs** - Try the smallest example first
 
@@ -929,7 +929,7 @@ You're now ready for:
 1. Complete [INTERVIEW_PREP.md](./INTERVIEW_PREP.md) in this repo
 2. Solve 150+ LeetCode problems (50 easy, 75 medium, 25 hard)
 3. Practice system design (for mid-level+)
-4. Do mock interviews on Pramp or interviewing.io
+4. Do mock interviews on interviewing.io or Exponent
 
 ### Keep Learning! 🌱
 
