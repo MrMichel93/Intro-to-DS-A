@@ -754,8 +754,6 @@ def has_duplicates(arr):
 
 ## 8. Problem-Solving Framework
 
-## 8. Problem-Solving Framework
-
 This systematic approach will help you tackle any coding problem. **Reference this framework in every module** – it's your roadmap to success!
 
 ### Step 1: Understand the Problem
